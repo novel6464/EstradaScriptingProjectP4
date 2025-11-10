@@ -19,6 +19,11 @@ public class ConventionsAndSyntax : MonoBehaviour
         {
             Debug.Log("I'm about to hit the ground");
         }
+        if(transform.position.y <= 0f)
+        {
+            Debug.Log("I've hit the ground");
+        }
 
     }
+
 }
