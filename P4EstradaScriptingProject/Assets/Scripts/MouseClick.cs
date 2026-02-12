@@ -12,10 +12,18 @@ public class MouseClick : MonoBehaviour
 
     }
 
-    void ()
+    void OnMouseDown ()
     {
         rb.AddForce(-transform.forward * 500f);
         rb.useGravity = true;
+
+    }
+    void Start()
+    {
+
+    }
+    void Update()
+    {
 
     }
 }
